@@ -1,0 +1,320 @@
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --grey-color: #888; 
+}
+
+/* start box design*/
+.d-flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-block {
+  display: block;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.align-c {
+  align-items: center;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.w-100{
+  width: 100px;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-100 {
+  height: 100px;
+}
+
+.rad-6 {
+  border-radius: 6px;
+}
+
+.rad-10 {
+  border-radius: 10px;
+}
+.rad-half {
+  border-radius: 50%;
+}
+.b-none {
+  border: none;
+}
+.b-eee {
+  border: 1px solid #eee;
+}
+/* end box design*/
+/* Start media disaign */
+.img-s {
+  width: 50px;
+}
+.img-m {
+  width: 150px;
+}
+/* End media disaign */
+/* Start padding + margin */
+.p-10 {
+  padding: 10px;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+.pt-10 {
+  padding-top: 10px;
+}
+.pt-15 {
+  padding-top: 15px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.m-0 {
+  margin: 0;
+}
+.m-20 {
+  margin: 20px;
+}
+.m-30 {
+  margin: 20px;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+/* End padding + margin */
+/* Stsrt Color */
+.bg-white {
+  background-color: white;
+}
+
+.bg-eee {
+  background-color: #eee;
+}
+
+.bg-blue {
+  background-color: var(--blue-color);
+}
+
+.bg-orang {
+  background-color: var(--orange-color);
+}
+
+.bg-green {
+  background-color: var(--green-color);
+}
+.bg-red {
+  background-color: var(--red-color);
+}
+.bg-eee {
+  background-color: #eee;
+}
+.c-gray {
+  color: var(--grey-color);
+}
+
+.c-white {
+  color: white;
+}
+
+.c-blue {
+  color: var(--blue-color);
+}
+
+.c-orang {
+  color: var(--orange-color);
+}
+
+.c-green {
+  color: var(--green-color);
+}
+
+.c-black {
+  color: black;
+}
+
+.c-red {
+  color: var(--red-color);
+}
+
+/* End Color */
+/* Stsrt postion */
+.p-relative {
+  position: relative;
+}
+
+.p-abslout {
+  position: absolute;
+}
+
+/* End postion */
+/* Start text decoration */
+.text-c {
+  text-align: center;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+/* End text decoration */
+/* Start media  */
+@media (max-width:767px) {
+  .hide-mopile {
+    display: none;
+  }
+
+  .text-c-mopile {
+    text-align: center;
+  }
+
+  .block-mopile {
+    display: block;
+  }
+}
+
+/* End media */
+/* Start component */
+.main-heading::before {
+  content: "";
+  background-color: white;
+  width: 100px;
+  height: 5px;
+  position: absolute;
+  bottom: -10px;
+}
+
+.main-heading::after {
+  content: "";
+  background-color: #333;
+  width: 30px;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+
+.btn-shape {
+  padding: 5px 10px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.between-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.evenly-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.center-flex {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+/* End component */

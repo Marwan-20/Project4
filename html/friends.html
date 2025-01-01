@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/freamWork.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <!-- Font Aowsom -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <title>Friends</title>
+</head>
+
+<body>
+  <div class="page d-flex">
+    <div class="sidebar bg-white p-20 p-relative">
+      <h3 class="p-relative text-c mt-0">Name</h3>
+      <ul>
+        <li>
+          <a class="d-flex align-c fs-13 rad-6 p-10" href="index.html">
+            <i class="fa-solid fa-chart-simple fa-fw"></i>
+            <span class="pl-10 hide-mopile ">Dashbord</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-c fs-14 c-black rad-6 p-10" href="settings.html">
+            <i class="fa-solid fa-gear fa-fw"></i>
+            <span class="pl-10 hide-mopile ">Settings</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-c fs-14 c-black rad-6 p-10" href="profile.html">
+            <i class="fa-regular fa-user fa-fw"></i>
+            <span class="pl-10 hide-mopile ">Profile</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex ign-c fs-14 c-black rad-6 p-10" href="projects.html">
+            <i class="fa-solid fa-diagram-project fa-fw"></i>
+            <span class="pl-10 hide-mopile ">Projects</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-c fs-14 c-black rad-6 p-10" href="courses.html">
+            <i class="fa-solid fa-graduation-cap fa-fw"></i>
+            <span class="pl-10 hide-mopile ">Courses</span>
+          </a>
+        </li>
+        <li>
+          <a class="active d-flex align-c fs-14 c-black rad-6 p-10" href="friends.html">
+            <i class="fa-regular fa-circle-user fa-fw"></i>
+            <span class="pl-10 hide-mopile">Friends</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-c fs-14 c-black rad-6 p-10" href="files.html">
+            <i class="fa-regular fa-file fa-fw"></i>
+            <span class="pl-10 hide-mopile ">Files</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-c fs-14 c-black rad-6 p-10" href="plans.html">
+            <i class="fa-regular fa-credit-card fa-fw"></i>
+            <span class="pl-10 hide-mopile">Plans</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="content w-full">
+      <!-- Start head -->
+      <div class="header between-flex p-15 bg-white">
+        <div class="search p-relative">
+          <input type="search" class="rad-6 p-15 " autocomplete="off" placeholder="type a key word">
+        </div>
+        <div class="avatar d-flex align-c">
+          <span class="notefaction p-relative">
+            <i class="fa-regular fa-bell fa-lg"></i>
+          </span>
+          <img src="../media/avatar.png" decoding="async" alt="avatar">
+        </div>
+      </div>
+      <!-- End head -->
+      <h1 class="p-relative ml-15 main-heading">Friends</h1>
+      <div class="friends-page d-grid gap-20 m-20">
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact between-flex">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular far fa-envelope center-flex"></i>
+          </div>
+          <div class="text-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="../media/team-01.png" alt="">
+            <h4 class="m-0">Person Name (1)</h4>
+            <p class="c-gray fs-13 m-5 mt-0">Java Expert</p>
+          </div>
+          <div class="icons fs-14 p-relative mt-20">
+            <div class="mb-10">
+              <i class="fa-regular fa-face-smile fa-fw"></i>
+              <span>99+ friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="fa-solid fa-code-commit fa-fw"></i>
+              <span>20 project</span>
+            </div>
+            <div>
+              <i class="fa-regular far fa-newspaper fa-fw"></i>
+              <span>20 artical</span>
+            </div>
+            <span class="vip fw-bold c-orang">VIP</span>
+          </div>
+          <div class="info between-flex fs-13 mt-20">
+            <span class="c-gray">
+              Joined 2/10/2000
+            </span>
+            <div>
+              <a class="btn-shape bg-blue c-white" href="profile.html">Profile</a>
+              <a class="btn-shape bg-red c-white" href="#">Remove</a>
+            </div>
+          </div>
+        </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact between-flex">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular far fa-envelope center-flex"></i>
+          </div>
+          <div class="text-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="../media/team-02.png" alt="">
+            <h4 class="m-0">Person Name (2)</h4>
+            <p class="c-gray fs-13 m-5 mt-0">Wep Expert</p>
+          </div>
+          <div class="icons fs-14 p-relative mt-20">
+            <div class="mb-10">
+              <i class="fa-regular fa-face-smile fa-fw"></i>
+              <span>80 friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="fa-solid fa-code-commit fa-fw"></i>
+              <span>30 project</span>
+            </div>
+            <div>
+              <i class="fa-regular far fa-newspaper fa-fw"></i>
+              <span>10 artical</span>
+            </div>
+          </div>
+          <div class="info between-flex fs-13 mt-20">
+            <span class="c-gray">
+              Joined 2/1/2020
+            </span>
+            <div>
+              <a class="btn-shape bg-blue c-white" href="profile.html">Profile</a>
+              <a class="btn-shape bg-red c-white" href="#">Remove</a>
+            </div>
+          </div>
+        </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact between-flex">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular far fa-envelope center-flex"></i>
+          </div>
+          <div class="text-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="../media/team-03.png" alt="">
+            <h4 class="m-0">Person Name (3)</h4>
+            <p class="c-gray fs-13 m-5 mt-0">Cloud Devolper</p>
+          </div>
+          <div class="icons fs-14 p-relative mt-20">
+            <div class="mb-10">
+              <i class="fa-regular fa-face-smile fa-fw"></i>
+              <span>10 friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="fa-solid fa-code-commit fa-fw"></i>
+              <span>25 project</span>
+            </div>
+            <div>
+              <i class="fa-regular far fa-newspaper fa-fw"></i>
+              <span>5 artical</span>
+            </div>
+            <span class="vip fw-bold c-orang">VIP</span>
+          </div>
+          <div class="info between-flex fs-13 mt-20">
+            <span class="c-gray">
+              Joined 2/1/2020
+            </span>
+            <div>
+              <a class="btn-shape bg-blue c-white" href="profile.html">Profile</a>
+              <a class="btn-shape bg-red c-white" href="#">Remove</a>
+            </div>
+          </div>
+        </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact between-flex">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular far fa-envelope center-flex"></i>
+          </div>
+          <div class="text-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="../media/team-04.png" alt="">
+            <h4 class="m-0">Person Name (4)</h4>
+            <p class="c-gray fs-13 m-5 mt-0">Mopile Devolper</p>
+          </div>
+          <div class="icons fs-14 p-relative mt-20">
+            <div class="mb-10">
+              <i class="fa-regular fa-face-smile fa-fw"></i>
+              <span>20 friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="fa-solid fa-code-commit fa-fw"></i>
+              <span>12 project</span>
+            </div>
+            <div>
+              <i class="fa-regular far fa-newspaper fa-fw"></i>
+              <span>8 artical</span>
+            </div>
+          </div>
+          <div class="info between-flex fs-13 mt-20">
+            <span class="c-gray">
+              Joined 3/12/2019
+            </span>
+            <div>
+              <a class="btn-shape bg-blue c-white" href="profile.html">Profile</a>
+              <a class="btn-shape bg-red c-white" href="#">Remove</a>
+            </div>
+          </div>
+        </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact between-flex">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular far fa-envelope center-flex"></i>
+          </div>
+          <div class="text-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="../media/team-05.png" alt="">
+            <h4 class="m-0">Person Name (5)</h4>
+            <p class="c-gray fs-13 m-5 mt-0">Project Manegar</p>
+          </div>
+          <div class="icons fs-14 p-relative mt-20">
+            <div class="mb-10">
+              <i class="fa-regular fa-face-smile fa-fw"></i>
+              <span>5 friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="fa-solid fa-code-commit fa-fw"></i>
+              <span>30 project</span>
+            </div>
+            <div>
+              <i class="fa-regular far fa-newspaper fa-fw"></i>
+              <span>25 artical</span>
+            </div>
+          </div>
+          <div class="info between-flex fs-13 mt-20">
+            <span class="c-gray">
+              Joined 3/12/2023
+            </span>
+            <div>
+              <a class="btn-shape bg-blue c-white" href="profile.html">Profile</a>
+              <a class="btn-shape bg-red c-white" href="#">Remove</a>
+            </div>
+          </div>
+        </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact between-flex">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular far fa-envelope center-flex"></i>
+          </div>
+          <div class="text-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="../media/team-03.png" alt="">
+            <h4 class="m-0">Person Name (6)</h4>
+            <p class="c-gray fs-13 m-5 mt-0">Hacker</p>
+          </div>
+          <div class="icons fs-14 p-relative mt-20">
+            <div class="mb-10">
+              <i class="fa-regular fa-face-smile fa-fw"></i>
+              <span>2 friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="fa-solid fa-code-commit fa-fw"></i>
+              <span>?? project</span>
+            </div>
+            <div>
+              <i class="fa-regular far fa-newspaper fa-fw"></i>
+              <span>4 artical</span>
+            </div>
+            <span class="vip fw-bold c-orang">VIP</span>
+          </div>
+          <div class="info between-flex fs-13 mt-20">
+            <span class="c-gray">
+              Joined 4/12/2023
+            </span>
+            <div>
+              <a class="btn-shape bg-blue c-white" href="profile.html">Profile</a>
+              <a class="btn-shape bg-red c-white" href="#">Remove</a>
+            </div>
+          </div>
+        </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact between-flex">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular far fa-envelope center-flex"></i>
+          </div>
+          <div class="text-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="../media/team-01.png" alt="">
+            <h4 class="m-0">Person Name (1)</h4>
+            <p class="c-gray fs-13 m-5 mt-0">Java Expert</p>
+          </div>
+          <div class="icons fs-14 p-relative mt-20">
+            <div class="mb-10">
+              <i class="fa-regular fa-face-smile fa-fw"></i>
+              <span>99+ friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="fa-solid fa-code-commit fa-fw"></i>
+              <span>20 project</span>
+            </div>
+            <div>
+              <i class="fa-regular far fa-newspaper fa-fw"></i>
+              <span>20 artical</span>
+            </div>
+            <span class="vip fw-bold c-orang">VIP</span>
+          </div>
+          <div class="info between-flex fs-13 mt-20">
+            <span class="c-gray">
+              Joined 2/10/2000
+            </span>
+            <div>
+              <a class="btn-shape bg-blue c-white" href="profile.html">Profile</a>
+              <a class="btn-shape bg-red c-white" href="#">Remove</a>
+            </div>
+          </div>
+        </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact between-flex">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular far fa-envelope center-flex"></i>
+          </div>
+          <div class="text-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="../media/team-02.png" alt="">
+            <h4 class="m-0">Person Name (2)</h4>
+            <p class="c-gray fs-13 m-5 mt-0">Wep Expert</p>
+          </div>
+          <div class="icons fs-14 p-relative mt-20">
+            <div class="mb-10">
+              <i class="fa-regular fa-face-smile fa-fw"></i>
+              <span>80 friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="fa-solid fa-code-commit fa-fw"></i>
+              <span>30 project</span>
+            </div>
+            <div>
+              <i class="fa-regular far fa-newspaper fa-fw"></i>
+              <span>10 artical</span>
+            </div>
+          </div>
+          <div class="info between-flex fs-13 mt-20">
+            <span class="c-gray">
+              Joined 2/1/2020
+            </span>
+            <div>
+              <a class="btn-shape bg-blue c-white" href="profile.html">Profile</a>
+              <a class="btn-shape bg-red c-white" href="#">Remove</a>
+            </div>
+          </div>
+        </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact between-flex">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular far fa-envelope center-flex"></i>
+          </div>
+          <div class="text-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="../media/team-03.png" alt="">
+            <h4 class="m-0">Person Name (3)</h4>
+            <p class="c-gray fs-13 m-5 mt-0">Cloud Devolper</p>
+          </div>
+          <div class="icons fs-14 p-relative mt-20">
+            <div class="mb-10">
+              <i class="fa-regular fa-face-smile fa-fw"></i>
+              <span>10 friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="fa-solid fa-code-commit fa-fw"></i>
+              <span>25 project</span>
+            </div>
+            <div>
+              <i class="fa-regular far fa-newspaper fa-fw"></i>
+              <span>5 artical</span>
+            </div>
+            <span class="vip fw-bold c-orang">VIP</span>
+          </div>
+          <div class="info between-flex fs-13 mt-20">
+            <span class="c-gray">
+              Joined 2/1/2020
+            </span>
+            <div>
+              <a class="btn-shape bg-blue c-white" href="profile.html">Profile</a>
+              <a class="btn-shape bg-red c-white" href="#">Remove</a>
+            </div>
+          </div>
+        </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact between-flex">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular far fa-envelope center-flex"></i>
+          </div>
+          <div class="text-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="../media/team-04.png" alt="">
+            <h4 class="m-0">Person Name (4)</h4>
+            <p class="c-gray fs-13 m-5 mt-0">Mopile Devolper</p>
+          </div>
+          <div class="icons fs-14 p-relative mt-20">
+            <div class="mb-10">
+              <i class="fa-regular fa-face-smile fa-fw"></i>
+              <span>20 friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="fa-solid fa-code-commit fa-fw"></i>
+              <span>12 project</span>
+            </div>
+            <div>
+              <i class="fa-regular far fa-newspaper fa-fw"></i>
+              <span>8 artical</span>
+            </div>
+          </div>
+          <div class="info between-flex fs-13 mt-20">
+            <span class="c-gray">
+              Joined 3/12/2019
+            </span>
+            <div>
+              <a class="btn-shape bg-blue c-white" href="profile.html">Profile</a>
+              <a class="btn-shape bg-red c-white" href="#">Remove</a>
+            </div>
+          </div>
+        </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact between-flex">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular far fa-envelope center-flex"></i>
+          </div>
+          <div class="text-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="../media/team-05.png" alt="">
+            <h4 class="m-0">Person Name (5)</h4>
+            <p class="c-gray fs-13 m-5 mt-0">Project Manegar</p>
+          </div>
+          <div class="icons fs-14 p-relative mt-20">
+            <div class="mb-10">
+              <i class="fa-regular fa-face-smile fa-fw"></i>
+              <span>5 friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="fa-solid fa-code-commit fa-fw"></i>
+              <span>30 project</span>
+            </div>
+            <div>
+              <i class="fa-regular far fa-newspaper fa-fw"></i>
+              <span>25 artical</span>
+            </div>
+          </div>
+          <div class="info between-flex fs-13 mt-20">
+            <span class="c-gray">
+              Joined 3/12/2023
+            </span>
+            <div>
+              <a class="btn-shape bg-blue c-white" href="profile.html">Profile</a>
+              <a class="btn-shape bg-red c-white" href="#">Remove</a>
+            </div>
+          </div>
+        </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact between-flex">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular far fa-envelope center-flex"></i>
+          </div>
+          <div class="text-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="../media/team-03.png" alt="">
+            <h4 class="m-0">Person Name (6)</h4>
+            <p class="c-gray fs-13 m-5 mt-0">Hacker</p>
+          </div>
+          <div class="icons fs-14 p-relative mt-20">
+            <div class="mb-10">
+              <i class="fa-regular fa-face-smile fa-fw"></i>
+              <span>2 friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="fa-solid fa-code-commit fa-fw"></i>
+              <span>?? project</span>
+            </div>
+            <div>
+              <i class="fa-regular far fa-newspaper fa-fw"></i>
+              <span>4 artical</span>
+            </div>
+            <span class="vip fw-bold c-orang">VIP</span>
+          </div>
+          <div class="info between-flex fs-13 mt-20">
+            <span class="c-gray">
+              Joined 4/12/2023
+            </span>
+            <div>
+              <a class="btn-shape bg-blue c-white" href="profile.html">Profile</a>
+              <a class="btn-shape bg-red c-white" href="#">Remove</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
